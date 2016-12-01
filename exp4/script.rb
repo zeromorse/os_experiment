@@ -44,7 +44,7 @@ class FAT # 文件分配表
   end
 
   def debug
-    print @indices, "\n"
+    print 'FAT表状态：',@indices, "\n"
   end
 end
 
